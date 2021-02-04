@@ -14,9 +14,13 @@ Execute main.py
 Open a postman
 Url in POSTMAN
     http://localhost:8000/predict
+    
 Select the method as POST
+
 Select the Body section
-Inside the Body Section Select Raw and Select format as a JSON
+
+Inside the Body Section Select Raw and Select format as a JSON.
+
 Data which we can send from the postman
     {
     "text" : "I am going to beach today!"
